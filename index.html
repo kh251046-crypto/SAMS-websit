@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saudi Airlines Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6fa86f, #3f6f3f);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header */
+        header {
+            width: 100%;
+            padding: 15px;
+            text-align: right;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main card */
+        .container {
+            background-color: white;
+            width: 450px;
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #2b5306;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        /* Buttons */
+        .menu-btn {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            margin: 10px 0;
+            background-color: #2b5306;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .menu-btn:hover {
+            background-color: #a5ffc8;
+            color: #2b5306;
+            transform: scale(1.03);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="file:///C:/Users/USER/Downloads/SAMS%20website/Login.html">Login</a>
+    </header>
+
+    <div class="container">
+        <img src="logo.png" alt="Saudi Airline logo">
+
+        <h1>Welcome to Saudi Airlines</h1>
+
+        <form>
+            <input class="menu-btn" type="submit" value="Book a Flight">
+            <input class="menu-btn" type="submit" value="Manage Booking">
+            <input class="menu-btn" type="submit" value="Pre-book Meal">
+            <input class="menu-btn" type="submit" value="Lounge Access">
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2025 Saudi Airlines</p>
+    </footer>
+
+</body>
+</html>
